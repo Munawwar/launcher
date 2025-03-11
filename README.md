@@ -27,8 +27,6 @@ Following OS and architecture filname suffix combinations are supported:
 ```
 <name>-linux-x86_64
 <name>-linux-arm64
-<name>-linux-armv7
-<name>-linux-armv6
 <name>-darwin-x86_64
 <name>-darwin-arm64
 <name>-windows-x86_64.exe
