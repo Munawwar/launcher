@@ -16,7 +16,7 @@ And lets say you want a single command to pick and execute the correct binary on
 
 Then you can ship `launch` binary and run
 
-```
+```sh
 launch goaws
 ```
 (`goaws` is just an example here, could be any prefix)
@@ -33,4 +33,20 @@ Following OS and architecture filname suffix combinations are supported:
 <name>-windows-arm64.exe
 <name>-bsd-x86_64
 <name>-bsd-arm64
+```
+
+## Build the binary yourself?
+
+Download cosmo compiler
+```sh
+mkdir -p cosmocc
+cd cosmocc
+wget https://cosmo.zip/pub/cosmocc/cosmocc.zip
+unzip cosmocc.zip
+cd ..
+```
+
+Next, build the file:
+```sh
+cosmocc/bin/cosmocc -o launch launch.c
 ```
