@@ -9,7 +9,7 @@ Lets say you have a list of binaries like the following:
 goaws-linux-x86_64
 goaws-darwin-arm64
 goaws-darwin-x86_64
-goaws-windows-x86_64
+goaws-windows-x86_64.exe
 ```
 
 And lets say you want a single command to pick and execute the correct binary on a developer's machine based on the OS they use.
