@@ -23,7 +23,7 @@ launch goaws
 
 And that will run the correct `goaws` binary from the current working directory.
 
-Following OS and architecture filname suffix combinations are supported:
+Following OS and architecture filename suffixes are supported:
 ```
 <name>-linux-x86_64
 <name>-linux-arm64
