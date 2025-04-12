@@ -2,6 +2,8 @@
 
 Cross-platform binary launcher
 
+Download the `launch` binary from https://github.com/Munawwar/launcher/releases/tag/v0.1.0
+
 Usage: `launch [binary name]`
 
 Lets say you have a list of binaries like the following:
